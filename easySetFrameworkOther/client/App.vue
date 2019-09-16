@@ -22,7 +22,7 @@
       <div>
         <router-view></router-view>
       </div>
-      <button v-on:click="goSendJson()">a</button>
+      <!-- <button v-on:click="goSendJson()">a</button> -->
     </div>
   </div>
   
@@ -82,10 +82,10 @@ export default {
         },
         {
         itemid:6,
-        name:"789",
+        name:"testD3",
         father:"2",
         level:1,
-        url:"javascript:;"
+        url:"testD3"
         },
         {
         itemid:7,
@@ -287,9 +287,9 @@ var topTip = document.getElementById('topTip');
     box-shadow: 0px 0px 20px #888888;
     overflow-x: hidden;
     background-color: #BABABA;
-    transform:translate(0px,-1000px);
-    -moz-transform:translate(0px,-1000px);
-    -webkit-transform: translate(0px,-1000px);
+    transform:translate(0px,-1200px);
+    -moz-transform:translate(0px,-1200px);
+    -webkit-transform: translate(0px,-1200px);
 }
 .pageFooter{
     position: fixed;
@@ -343,9 +343,9 @@ var topTip = document.getElementById('topTip');
 
 @keyframes openPage{
     from {
-        transform:translate(0px,-1000px);
-        -moz-transform:translate(0px,-1000px);
-        -webkit-transform: translate(0px,-1000px);
+        transform:translate(0px,-1200px);
+        -moz-transform:translate(0px,-1200px);
+        -webkit-transform: translate(0px,-1200px);
     }
     to {
         transform:translate(0px,0px);
@@ -362,9 +362,9 @@ var topTip = document.getElementById('topTip');
         
     }
     to {
-        transform:translate(0px,-1000px);
-        -moz-transform:translate(0px,-1000px);
-        -webkit-transform: translate(0px,-1000px);
+        transform:translate(0px,-1200px);
+        -moz-transform:translate(0px,-1200px);
+        -webkit-transform: translate(0px,-1200px);
     }
 }
 </style>
