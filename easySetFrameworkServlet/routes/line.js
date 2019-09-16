@@ -33,7 +33,7 @@ router.post("/add",function(req,res,next){
     })
 })
 
-touter.post("/del",function(req,res,next){
+router.post("/del",function(req,res,next){
     var name = [req.body.name];
     var addSql = "";
     if(name!=null&&name!=""){
